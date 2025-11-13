@@ -1,0 +1,54 @@
+
+[General]
+CollectionFormat = ODVCF6
+DataField = Ocean
+DataType = Profiles
+Description = World Ocean Atlas 2023 gridded data
+NumberOfMetaVariables = 14
+NumberOfVariables = 25
+PrimaryVariableIndex = 1
+SampleQualityFlagSchema = ODV
+StationQualityFlagSchema = ODV
+
+[Meta Variables]
+0001 = Cruise;;INDEXED_TEXT;4;0;0;ODV;METACRUISE;
+0002 = Station;;TEXT;21;0;0;ODV;METASTATION;
+0003 = Type;;TEXT;2;0;0;ODV;METATYPE;
+0004 = Longitude;degrees_east;FLOAT;4;3;0;ODV;METALONGITUDE;
+0005 = Latitude;degrees_north;FLOAT;4;3;0;ODV;METALATITUDE;
+0006 = Year;;SHORT;2;0;0;ODV;METAYEAR;
+0007 = Month;;BYTE;1;0;0;ODV;METAMONTH;
+0008 = Day;;BYTE;1;0;0;ODV;METADAY;
+0009 = Hour;;BYTE;1;0;0;ODV;METAHOUR;
+0010 = Minute;;BYTE;1;0;0;ODV;METAMINUTE;
+0011 = Second;;FLOAT;4;0;0;ODV;METASECOND;
+0012 = Accession Number;;UNSIGNED_INTEGER;4;0;0;ODV;METAACCESSIONNUMBER;
+0013 = Min Depth;m;FLOAT;4;0;0;ODV;METAPRIMVARMIN;
+0014 = Max Depth;m;FLOAT;4;0;0;ODV;METAPRIMVARMAX;
+
+[Variables]
+0001 = Depth;m;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0002 = Temperature;degC;FLOAT;4;3;0;ODV;BASIC;Objectively analyzed climatology
+0003 = Salinity;psu;FLOAT;4;4;0;ODV;BASIC;Objectively analyzed climatology
+0004 = Oxygen;~$m~#mol/kg;FLOAT;4;1;0;ODV;BASIC;Objectively analyzed climatology
+0005 = Oxygen Saturation;%;FLOAT;4;2;0;ODV;BASIC;
+0006 = AOU;~$m~#mol/kg;FLOAT;4;2;0;ODV;BASIC;Objectively analyzed climatology
+0007 = Phosphate;~$m~#mol/kg;FLOAT;4;3;0;ODV;BASIC;Objectively analyzed climatology
+0008 = Nitrate;~$m~#mol/kg;FLOAT;4;2;0;ODV;BASIC;Objectively analyzed climatology
+0009 = Silicate;~$m~#mol/kg;FLOAT;4;2;0;ODV;BASIC;Objectively analyzed climatology
+0010 = Mean Temperature;degC;FLOAT;4;3;0;ODV;BASIC;Statistical mean of data
+0011 = Mean Salinity;psu;FLOAT;4;4;0;ODV;BASIC;Statistical mean of data
+0012 = Mean Oxygen;~$m~#mol/kg;FLOAT;4;1;0;ODV;BASIC;Statistical mean of data
+0013 = Mean Oxygen Saturation;%;FLOAT;4;2;0;ODV;BASIC;
+0014 = Mean AOU;~$m~#mol/kg;FLOAT;4;2;0;ODV;BASIC;Statistical mean of data
+0015 = Mean Phosphate;~$m~#mol/kg;FLOAT;4;3;0;ODV;BASIC;Statistical mean of data
+0016 = Mean Nitrate;~$m~#mol/kg;FLOAT;4;2;0;ODV;BASIC;Statistical mean of data
+0017 = Mean Silicate;~$m~#mol/kg;FLOAT;4;2;0;ODV;BASIC;Statistical mean of data
+0018 = Data Count Temperature;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0019 = Data Count Salinity;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0020 = Data Count Oxygen;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0021 = Data Count Oxygen Saturation;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0022 = Data Count AOU;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0023 = Data Count Phosphate;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0024 = Data Count Nitrate;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
+0025 = Data Count Silicate;;UNSIGNED_SHORT;2;0;0;ODV;BASIC;
