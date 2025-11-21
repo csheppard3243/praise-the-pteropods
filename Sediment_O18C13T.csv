@@ -1,4 +1,4 @@
-Vial,Name of Test,mean d13C (PDB),mean d18O (PDB),temp (C°),Sr/Ca [mmol/mol],Ba/Ca [umol/mol],U/Ca [nmol/mol],Na_Ca [mmol/mol],Mg_Ca [mmol/mol],Mn_Ca [umol/mol],Fe_Ca [umol/mol],Al_Ca [umol/mol],depth
+Vial,Name of Test,mean d13C (PDB),mean d18O (PDB),temp (C°) ,Sr/Ca [mmol/mol],Ba/Ca [umol/mol],U/Ca [nmol/mol],Na_Ca [mmol/mol],Mg_Ca [mmol/mol],Mn_Ca [umol/mol],Fe_Ca [umol/mol],Al_Ca [umol/mol],depth
 1A,No cleaning,1.3,0.05,17.510548523206754,2.42,11.99,468,17.21,9.05,175.66,556.81,514,1312
 1B,No cleaning,1.54,-0.03,17.848101265822788,2.3,12.85,448,17.48,8.17,174.43,588.75,627,1312
 1C,No cleaning,1.45,-0.04,17.89029535864979,2.35,12.42,449,17.33,9.02,165.64,521.82,549,1312
