@@ -1,2 +1,3 @@
 data/
 *.nc # or whatever big extensions you have
+data_raw/
